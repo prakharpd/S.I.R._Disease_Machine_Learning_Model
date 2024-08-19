@@ -117,7 +117,8 @@ plt.plot(t,R)
 plt.xlabel("Time")
 plt.ylabel("Susceptible [Blue], Infected [Orange], Rate[Green]")
 
-# NOTE: You will get linear graph because beta and gamma values obtained from data are different.
+# NOTE: You will get constant line graph because beta and gamma values obtained from data are different. 
+#       Aditiionally slope of Linearly Increasing Line remains constant at different points
 
 """# Grid Based Seperate Plots"""
 
