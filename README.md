@@ -1,4 +1,4 @@
-# 🦠 Epidemiological Forecasting: From Linear Regression to Deep Learning
+# 🦠 S.I.R. Disease Machine Learning Model: From Linear Regression to Deep Learning
 
 ---
 
