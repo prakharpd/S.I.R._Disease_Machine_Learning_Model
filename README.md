@@ -40,7 +40,7 @@ In my first iteration, I attempted to approach the parameter discovery problem u
 </details>
 
 ### The Mathematical Trap (Why V1 Failed)
-While the Linear Regression achieved a seemingly high $R^2$ of **0.91** on its specific testing slice, it has assumed that data set variation would bbe linear, each time. 
+While the Linear Regression achieved a seemingly high $R^2$ of **0.91** on its specific testing slice, with an assumption that data set variation would be linear, each time. 
 
 In a biological SIR model, these rates typically sit between $0.0$ and $1.0$. This revealed two fatal flaw in our assumption in using Linear Regression for this task:
 1. **The Negative Population Trap:** A straight regression line extends infinitely. When projected, it can output negative values for a total population, which is biologically impossible.
