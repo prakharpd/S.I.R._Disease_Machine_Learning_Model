@@ -40,9 +40,9 @@ In my first iteration, I attempted to approach the parameter discovery problem u
 </details>
 
 ### The Mathematical Trap (Why V1 Failed)
-While the Linear Regression achieved a seemingly high $R^2$ of **0.91** on its specific testing slice, it produced severely flawed biological parameters ($\beta \approx 9312.57$, $\gamma \approx 26780.09$). 
+While the Linear Regression achieved a seemingly high $R^2$ of **0.91** on its specific testing slice, it has assumed that data set variation would bbe linear, each time. 
 
-In a biological SIR model, these rates typically sit between $0.0$ and $1.0$. This revealed two fatal flaws in using Linear Regression for this task:
+In a biological SIR model, these rates typically sit between $0.0$ and $1.0$. This revealed two fatal flaw in our assumption in using Linear Regression for this task:
 1. **The Negative Population Trap:** A straight regression line extends infinitely. When projected, it can output negative values for a total population, which is biologically impossible.
 2. **The Noise Trap:** Linear regression expects data to be clean and have a linear relationship in ideal situations. In reality, epidemiological data is exponential, curved, and highly noisy. A straight line cannot capture the dynamic relationships required for differential equations, resulting in a constant, flat-line simulation graph.
 
