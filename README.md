@@ -29,7 +29,7 @@ Predicting the spread of infectious diseases is a highly complex challenge. Trad
 In my first iteration, I attempted to approach the parameter discovery problem using standard Machine Learning techniques via Scikit-Learn's `LinearRegression` model.
 
 <details>
-<summary><b>🛠️ Click to expand: The V1 Implementation Details</b></summary>
+<summary><b> Click to expand: The V1 Implementation Details</b></summary>
 
 1. **Data Ingestion:** Loaded the historical `Disease.csv` dataset, extracting the features ($x$) and targets ($y$).
 2. **Training & Validation:** Split the data using an 80/20 Train/Test ratio (`train_test_split`).
