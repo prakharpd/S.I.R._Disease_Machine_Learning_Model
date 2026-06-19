@@ -1,8 +1,8 @@
-# 🦠 S.I.R. Disease Machine Learning Model: From Linear Regression to Deep Learning
+#  S.I.R. Disease Machine Learning Model: From Linear Regression to Deep Learning
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 * [1. The Problem Statement](#1-the-problem-statement)
 * [2. Version 1: The Linear Regression Approach](#2-version-1-the-linear-regression-approach)
   * [The Implementation](#the-v1-implementation)
@@ -53,7 +53,7 @@ In a biological SIR model, these rates typically sit between $0.0$ and $1.0$. Th
 To solve the limitations of V1, I engineered an advanced hybrid architecture. Instead of using Machine Learning to *guess* the base parameters, I used Deep Learning to *correct* a properly optimized mathematical baseline.
 
 <details>
-<summary><b>🧠 Click to expand: How Residual Error Correction Works</b></summary>
+<summary><b> Click to expand: How Residual Error Correction Works</b></summary>
 
 1. **Proper Optimization:** Used SciPy's `minimize` (Nelder-Mead algorithm) to correctly solve for $\beta$ and $\gamma$, keeping them within realistic biological bounds to generate a perfect theoretical baseline.
 2. **The Target:** Calculated the residual error for every time step: 
